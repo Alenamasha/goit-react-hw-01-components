@@ -1,0 +1,45 @@
+.item {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.isOnline {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    
+}
+
+.isOnlineTrue {
+    composes: isOnline;
+    background-color: green;
+}
+
+.isOnlineFalse {
+    composes: isOnline;
+    background-color: red;
+} 
+
+
+.avatar{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(113, 108, 108);
+    margin-right: 10px;
+    border: 1px solid;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(20, 20, 20)
+}
